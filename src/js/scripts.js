@@ -1,3 +1,8 @@
+/*!
+ * Start Bootstrap - Freelancer v7.0.4 (https://startbootstrap.com/theme/freelancer)
+ * Copyright 2013-2021 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-freelancer/blob/master/LICENSE)
+ */
 //
 // Scripts
 // 
@@ -47,3 +52,23 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
+i = 0;
+var width = screen.width;
+
+function createBubble() {
+    const animatedsection = document.querySelector("animatedsection");
+    const createElement = document.createElement("span");
+    var size = Math.random() * 20;
+    createElement.style.animation = "animation 20s linear infinite";
+    createElement.style.width = 100 + size + "px";
+    createElement.style.height = 100 + size + "px";
+    createElement.style.left = Math.random() * innerWidth + "px";
+    animatedsection.appendChild(createElement);
+
+    setTimeout(() => {
+        createElement.remove();
+    }, 10000);
+}
+setInterval(createBubble, 350);
