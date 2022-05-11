@@ -12523,3 +12523,9 @@ animatedsection span:before {
         opacity: 100;
     }
 }
+
+
+.techs:hover{
+    filter: brightness(120%);
+
+}
