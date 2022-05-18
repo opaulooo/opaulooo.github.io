@@ -46,11 +46,9 @@
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="#techs">Tecnologias</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="#hobby">Hobbies</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#contact">Contato</a></li>
+                            href="#portfolio">Portfolio</a></li>
                 </ul>
             </div>
         </div>
@@ -91,14 +89,14 @@
             <!-- About Section Content-->
             <div class="row">
                 <div class="col-lg-4 ms-auto">
-                    <p class="lead">Me chamo Paulo Victor, atualmente possuo 21 anos e curso o
+                    <p class="lead text-justify">Me chamo Paulo Victor, atualmente possuo 21 anos e curso o
                         7º Período de Engenharia da Computação no IFTM - CAUPT. Tenho bastante
                         interesse em vários Frameworks como Angular, React, Flutter, IONIC, Node,
                         Nest, Quarkus e Bootstrap, a maioria ainda não domino, mas tenho estudado
                         alguns para me aprimorar!</p>
                 </div>
                 <div class="col-lg-4 me-auto">
-                    <p class="lead">Atualmente estou à procura de um emprego que possa ter horários
+                    <p class="lead text-justify">Atualmente estou à procura de um emprego que possa ter horários
                         flexíveis para terminar minha faculdade. Possuo experiência de
                         atuação como Desenvolvedor Fullstack e Mobile Júnior,
                         sendo Angular, Node e IONIC as principais tecnologias. Desde então tenho estudado
@@ -108,7 +106,6 @@
             </div>
         </div>
     </section>
-
 
     <!-- Contato -->
     <section class="page-section bg-danger text-white mb-0" id="techs">
@@ -124,21 +121,23 @@
 
 
             <div class="row">
-                <div class="col-lg-4 ms-auto" style="margin-right: 2em;">
-                    <p class="lead">Essas são algumas das tecnologias que possuo experiência e que
+                <div class="col-lg-4 ms-auto">
+                    <p class="lead text-justify">Essas são algumas das tecnologias que possuo experiência e que
                         estou estudando para me aprimorar, gosto bastante com o Front-End,
                         mas nos últimos meses tenho me interessado cada vez mais pelo
                         Back-End e Mobile.
                     </p>
-                    <p class="lead">Tenho mais experiência com Angular, Node, IONIC e SQLite, onde trabalhei
+                    <p class="lead text-justify">Tenho mais experiência com Angular, Node, IONIC e SQLite, onde
+                        trabalhei
                         desenvolvendo um sistema WEB com a API e App interagindo entre si para a logística
                         do controle de estoque dos clientes da empresa.
                     </p>
-                    <p class="lead">Ultimamente estou gostando de aprender sobre as outras tecnologias listadas,
+                    <p class="lead text-justify">Ultimamente estou gostando de aprender sobre as outras tecnologias
+                        listadas,
                         que parecem ser bem legais e bastante usadas no mercado.
                     </p>
                 </div>
-                <div class="col-lg-4 me-auto bg-white rounded" style="--bs-bg-opacity: 1;">
+                <div class="col-lg-4 me-auto bg-white rounded" style="--bs-bg-opacity: 1; margin-left: 1em;">
                     <div class="row card-body">
                         <div class="col-lg-4 col-xl-4 align-middle" style="margin-top: 1em">
                             <div class="text-center text-uppercase text-secondary">
@@ -247,13 +246,43 @@
             </div>
     </section>
 
+    <!-- About Section-->
+    <section class="page-section mb-0" id="hobby">
+        <div class="container">
+            <!-- About Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase">Hobbies</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- About Section Content-->
+            <div class="row">
+                <div class="col-lg-4 ms-auto">
+                    <p class="lead text-justify">Gosto bastante de aprender novas tecnologias e aprimorar
+                        as que já tive contato, como o próprio Angular, IONIC e NodeJS. Fora
+                        dessa linha, também sou um bom consumidor de animes e mangás, jogos online,
+                        como CS: GO, Fortnite, GTA, Valorant, APEX, R6, entre alguns outros que jogo
+                        bastante com meus amigos. E outro totalmente fora da curva,
+                        também gosto de arranhar meu violino e ouvir umas músicas clássicas (principalmente com solista
+                        violino).</p>
+                </div>
+                <div class="col-lg-4 me-auto">
+                    <p class="lead">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Portfolio Section-->
-    <section class="page-section portfolio" id="portfolio">
+    <section class="page-section bg-danger portfolio" id="portfolio">
         <div class="container">
             <!-- Portfolio Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfólio</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 text-white">Portfólio</h2>
             <!-- Icon Divider-->
-            <div class="divider-custom">
+            <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>
                 <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
                 <div class="divider-custom-line"></div>
@@ -261,10 +290,10 @@
 
 
             <!-- Portfolio Grid Items-->
-            <div class="row justify-content-center">
+            <div class="row justify-content-center text-white">
                 <!-- Portfolio Item 1-->
                 <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white"><i
@@ -275,9 +304,9 @@
                 </div>
                 <!-- Portfolio Item 2-->
                 <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                    <div class="portfolio-item mx-auto text-white" data-bs-toggle="modal">
                         <div
-                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100 text-white">
                             <div class="portfolio-item-caption-content text-center text-white"><i
                                     class="fas fa-plus fa-3x"></i></div>
                         </div>
@@ -286,7 +315,7 @@
                 </div>
                 <!-- Portfolio Item 3-->
                 <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white"><i
@@ -297,7 +326,7 @@
                 </div>
                 <!-- Portfolio Item 4-->
                 <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white"><i
@@ -308,7 +337,7 @@
                 </div>
                 <!-- Portfolio Item 5-->
                 <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white"><i
@@ -319,7 +348,7 @@
                 </div>
                 <!-- Portfolio Item 6-->
                 <div class="col-md-6 col-lg-4">
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal">
                         <div
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white"><i
@@ -331,152 +360,48 @@
             </div>
         </div>
     </section>
-    <!-- About Section-->
-    <section class="page-section bg-danger text-white mb-0" id="about">
-        <div class="container">
-            <!-- About Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-white">Sobre Mim</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- About Section Content-->
-            <div class="row">
-                <div class="col-lg-4 ms-auto">
-                    <p class="lead">Me chamo Paulo Victor, atualmente possuo 21 anos e curso o
-                        7º Período de Engenharia da Computação no IFTM - CAUPT. Tenho bastante
-                        interesse em vários Frameworks como Angular, React, Flutter, IONIC, Node,
-                        Nest, Quarkus e Bootstrap, a maioria ainda não domino, mas tenho estudado
-                        alguns para me aprimorar!</p>
-                </div>
-                <div class="col-lg-4 me-auto">
-                    <p class="lead">Atualmente estou à procura de um emprego que possa ter horários
-                        flexíveis para terminar minha faculdade. Possuo experiência de
-                        atuação como Desenvolvedor Fullstack e Mobile Júnior,
-                        sendo Angular, Node e IONIC as principais tecnologias. Desde então tenho estudado
-                        algumas linguagens e frameworks para me aprimorar.
-                    </p>
-                </div>
-            </div>
-            <!-- Currículo -->
-            <div class="text-center mt-4">
-                <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                    <i class="fas fa-download me-2"></i>
-                    Meu Currículo!
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contato -->
-    <section class="page-section" id="contact">
-        <div class="container">
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Entre em Contato</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- Contact Section Form-->
-            <div class="row justify-content-center">
-                <div class="col-lg-8 col-xl-7">
-                    <!-- * * * * * * * * * * * * * * *-->
-                    <!-- * * SB Forms Contact Form * *-->
-                    <!-- * * * * * * * * * * * * * * *-->
-                    <!-- This form is pre-integrated with SB Forms.-->
-                    <!-- To make this form functional, sign up at-->
-                    <!-- https://startbootstrap.com/solution/contact-forms-->
-                    <!-- to get an API token!-->
-                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                        <!-- Name input-->
-                        <div class="form-floating mb-3">
-                            <input class="form-control" id="name" type="text" placeholder="Enter your name..."
-                                data-sb-validations="required" />
-                            <label for="name">Nome Completo</label>
-                            <div class="invalid-feedback" data-sb-feedback="name:required">Campo Obrigatório!</div>
-                        </div>
-                        <!-- Email address input-->
-                        <div class="form-floating mb-3">
-                            <input class="form-control" id="email" type="email" placeholder="name@example.com"
-                                data-sb-validations="required,email" />
-                            <label for="email">Email</label>
-                            <div class="invalid-feedback" data-sb-feedback="email:required">Campo Obrigatório!</div>
-                            <div class="invalid-feedback" data-sb-feedback="email:email">Email inválido</div>
-                        </div>
-                        <!-- Phone number input-->
-                        <div class="form-floating mb-3">
-                            <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
-                                data-sb-validations="required" />
-                            <label for="phone">Telefone</label>
-                            <div class="invalid-feedback" data-sb-feedback="phone:required">Campo Obrigatório!
-                            </div>
-                        </div>
-                        <!-- Message input-->
-                        <div class="form-floating mb-3">
-                            <textarea class="form-control" id="message" type="text"
-                                placeholder="Enter your message here..." style="height: 10rem"
-                                data-sb-validations="required"></textarea>
-                            <label for="message">Mensagem</label>
-                            <div class="invalid-feedback" data-sb-feedback="message:required">Campo Obrigatório!
-                            </div>
-                        </div>
-                        <!-- Submit success message-->
-                        <!---->
-                        <!-- This is what your users will see when the form-->
-                        <!-- has successfully submitted-->
-                        <div class="d-none" id="submitSuccessMessage">
-                            <div class="text-center mb-3">
-                                <div class="fw-bolder">Mensagem enviada com sucesso!</div>
-                                To activate this form, sign up at
-                                <br />
-                                <a
-                                    href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                            </div>
-                        </div>
-                        <!-- Submit error message-->
-                        <!---->
-                        <!-- This is what your users will see when there is-->
-                        <!-- an error submitting the form-->
-                        <div class="d-none" id="submitErrorMessage">
-                            <div class="text-center text-danger mb-3">Erro ao enviar mensagem!</div>
-                        </div>
-                        <!-- Submit Button-->
-                        <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Enviar</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
 
     <footer class="footer text-center">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 mb-5 mb-lg-0">
-                </div>
-                <!-- Currículo -->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                        <i class="fas fa-download me-2"></i>
-                        Meu Currículo!
-                    </a>
-                </div>
-                <div class="col-lg-4 mb-5 mb-lg-0">
                     <h4 class="text-uppercase mb-4">Redes Sociais</h4>
                     <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/o.paulooo/"
-                        target="_blank">
+                        target="_blank" data-toggle="tooltip" data-placement="top" title="Instagram">
                         <i class="fab fa-fw fa-instagram"></i></a>
                     <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/o_paulooo"
-                        target="_blank">
+                        target="_blank" data-toggle="tooltip" data-placement="top" title="Twitter">
                         <i class="fab fa-fw fa-twitter"></i></a>
                     <a class="btn btn-outline-light btn-social mx-1"
-                        href="https://www.linkedin.com/in/paulo-victor-cruz/" target="_blank">
+                        href="https://www.linkedin.com/in/paulo-victor-cruz/" target="_blank" data-toggle="tooltip"
+                        data-placement="top" title="LinkedIn">
                         <i class="fab fa-fw fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/opaulooo" target="_blank">
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/opaulooo" target="_blank"
+                        data-toggle="tooltip" data-placement="top" title="GitHub">
                         <i class="fab fa-fw fa-github"></i></a>
+                </div>
+                <!-- Currículo -->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="text-center mt-4">
+                        <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
+                            <i class="fas fa-download me-2"></i>
+                            Confira meu Currículo!
+                        </a>
+                    </div>
+                </div>
+                <!-- Currículo -->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="text-center mt-4">
+                        <p class="text-left">
+                            <i class="fas fa-light fa-phone fa-rotate-90"
+                                style="margin-left: 15px; margin-right: 10px;"></i>
+                            (34) 9.8845-4537
+                        </p>
+                        <p class="text-left">
+                            <i class="fas fa-light fa-envelope" style="margin-left: 15px; margin-right: 10px;"></i>
+                            o.paulooo.victor@gmail.com
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

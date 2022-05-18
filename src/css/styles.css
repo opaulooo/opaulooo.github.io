@@ -12525,7 +12525,15 @@ animatedsection span:before {
 }
 
 
-.techs:hover{
+.techs:hover {
     filter: brightness(120%);
 
 }
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-left {
+    text-align: start;
+  }
